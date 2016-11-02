@@ -44,8 +44,8 @@ div.opac{
 
 .photo{
 	margin-top:10px;
-	height: 230px;
-	width: 180px;
+	height: 20%;
+	width: 20%;
 	
 }
 
@@ -66,8 +66,8 @@ div.opac{
 	display:flex;
 	align-content: flex-start;
 	height:20%;
-	width: 80%;
-	margin-left: 10%;
+	width: 60%;
+	margin-left: 20%;
 	margin-top:10%;
 	border-radius: 70%;
 	
@@ -196,7 +196,7 @@ div.col-xs-2{
 
 .list-group-item{
 	margin-bottom: 7px;
-	padding-left: 100PX;
+	padding-left: 100px;
 
 }
 
