@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
     <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <title>Developper Web</title>
+    <title>Developpeur Web</title>
     <!--font-->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet" type="text/css">
@@ -30,7 +30,7 @@
     <link rel="shortcut icon" href="favicon.ico">  
 
     <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <link id="theme-style" rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/JulienV.css">
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
@@ -135,12 +135,12 @@
             <div class="profile-container">
                 <img class="profile" src="img/me.png" alt="" />
                 <h1 class="name">Vaupré Julien</h1>
-                <h3 class="tagline">Developer Full stack</h3>
+                <h3 class="tagline">Developpeur Full stack</h3>
             </div><!--//profile-container-->
             
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
-                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto: yourname@email.com">Reddeveloppement@wanalike.fr</a></li>
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto: yourname@email.com">RedDéveloppement@wanalike.fr</a></li>
                     <li class="phone"><i class="fa fa-phone"></i><a href="tel:0123 456 789">+330602074343</a></li>
                     <li class="website"><i class="fa fa-globe"></i><a href="http://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers/" target="_blank">Redfolio.wanalike.com</a></li>
                     <li class="linkedin"><i class="fa fa-linkedin"></i><a href="#" target="_blank">linkedin.com/in/JulienV</a></li>
@@ -154,7 +154,7 @@
                 <h2 class="container-block-title">Languages</h2>
                 <ul class="list-unstyled interests-list">
                     <li>French <span class="lang-desc">(Natif)</span></li>
-                    <li>English <span class="lang-desc">(Professional)</span></li>
+                    <li>English <span class="lang-desc">(Proffessional)</span></li>
                     
                 </ul>
             
@@ -174,14 +174,15 @@
                <div class="item">
                     <div class="meta">
                         <div class="upper-row">
-                            <h3 class="job-title">President et Developer</h3>
-                            <div class="time">2015 - Jusqu'a present</div>
+                            <h3 class="job-title">Président et Developpeur</h3>
+                            <div class="time">2015 - Jusqu'à présent</div>
                         </div><!--//upper-row-->
                         <div class="company">Shambhalafm, Loudeac(22)</div>
                     </div><!--//meta-->
                     <div class="details">
-                        <p>C'est fin 2015 que le Projet est lancé aprés mure reflection l'envie et le besoin de mettre en place une web-radio a themes open source sur des sujets proposé par les auditeurs...</p>  
-                        <p>toujour en develeppement le projet est developpé en php/sql, bootstrap, css3 et html5, je m'emploie a assurer la continuité et le maintien du developpement du projet une version beta est en cours. </p>
+                        <p>C'est à la fin de l'année 2015 que le projet a été mit en place, avec plaisir et détermination, sur des sujets proposés par les auditeurs.</p>  
+                        <p>Toujours en Développement, le projet est conçu en php/sql, bootstrap4, css3 et html5.
+                         Je m'emploie à assurer la continuité et le maintien du développement du projet, une version Alpha est en cours. </p>
                     </div><!--//details-->
                 </div><!--//item-->
 
@@ -190,14 +191,14 @@
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
-                            <h3 class="job-title">Developer full-stack</h3>
+                            <h3 class="job-title">Développeur full-stack</h3>
                             <div class="time">Septembre 2016</div>
                         </div><!--//upper-row-->
                         <div class="company">2tech, Vannes(56)</div>
                     </div><!--//meta-->
                     <div class="details">
-                        <p>Developement collaboratif d'un panel de gestion de stock.</p>  
-                        <p>En charge de la realisation du projet , j'ai du assurer la conception du site et gerer les differents aspects et contraintes de la commande pour repondre au besoin du client , ce projet a été developpé en php/sql et en bootstrap/html5/Css3 </p>
+                        <p>Développement collaboratif d'un panel de gestion de stock.</p>  
+                        <p>En charge de la réalisation du projet , j'ai du assurer la conception du site et gérer les différents aspects et contraintes de la commande pour répondre aux besoins du client , ce projet a été développé en php/sql et en bootstrap4/html5/Css3 </p>
                     </div><!--//details-->
                 </div><!--//item-->
 
@@ -205,14 +206,14 @@
                       <div class="item ">
                             <div class="meta">
                                 <div class="upper-row">
-                                    <h3 class="job-title">Developper Full-stack</h3>
-                                    <div class="time">aout 2016 </div>
+                                    <h3 class="job-title">Développeur Full-stack</h3>
+                                    <div class="time">Août 2016 </div>
                                 </div><!--//upper-row-->
                                 <div class="company">Ebulition</div>
                             </div><!--//meta-->
                             <div class="details">
-                                <p>Developement collaboratif d'un site vitrine pour de la vente de vetements</p>  
-                                <p>En equipe nous avons developper un site vitrine pour la promotion des vetements de la cliente avec plusieurs galeries affichant ces produits. ce projet a été developpé en bootstrap/jquery Html5/Css3 PHP/sql </p>
+                                <p>Développement collaboratif d'un site vitrine pour faire de la vente de prêt-à-porter</p> <p>Assurer la promotion du marché de la cliente, avec plusieurs galeries affichant ses produits. 
+                                Ce projet a été developpé en bootstrap/jquery Html5/Css3 PHP/sql. </p>
                             </div><!--//details-->
                         </div><!--//item-->
 
@@ -221,7 +222,7 @@
                 
                 <div class="item">
                     <h4 class="degree">Bep Electronique</h4>
-                    <h5 class="meta">SUlly NogentLeRotrou</h5>
+                    <h5 class="meta">Sully NogentLeRotrou</h5>
                     <div class="time">2004 - 2005</div>
                 </div><!--//item-->
                 <div class="item">
@@ -230,7 +231,7 @@
                     <div class="time">2009- 2010</div>
                 </div><!--//item-->
                 <div class="item">
-                    <h4 class="degree">Developper web</h4>
+                    <h4 class="degree">Développeur Web</h4>
                     <h5 class="meta">Code Academie Rennes</h5>
                     <div class="time">2016</div>
                 </div><!--//item-->
@@ -252,10 +253,10 @@
                 </div>
                 </section>
                 <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="plugins/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>    
     <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
             </body>
             
             </html>
