@@ -312,3 +312,22 @@ p.nintendo{
 	margin-top:50px;
 }
 
+@media all and (min-width: 600px){
+
+
+img.profile{
+        display:flex;
+        align-content: flex-start;
+        height:10%;
+        width: 60%;
+        margin-left: 20%;
+        margin-top:10%;
+        border-radius: 70%;
+
+
+}
+
+
+
+
+}
