@@ -1,12 +1,12 @@
-Free Bootstrap Resume/CV Template for developers
+Cv Vaupré Julien Dévellopper
 
 Theme name:
 =======================================================================
-Orbit
+Orbit (Fish-Version)
 
 Theme version:
 =======================================================================
-v1.0
+v1.1
 
 Release Date:
 =======================================================================
@@ -14,13 +14,13 @@ Release Date:
 
 Author: 
 =======================================================================
-Xiaoying Riley at 3rd Wave Media (http://themes.3rdwavemedia.com/)
+Inspired By Xiaoying Riley at 3rd Wave Media (http://themes.3rdwavemedia.com/)
+
+Powered By Vaupré Julien
 
 Contact:
 =======================================================================
-Web: http://themes.3rdwavemedia.com/
-Email: hello@3rdwavemedia.com
-Twitter: @3rdwave_themes
+Vaupré Julien : 
 
 License: 
 =======================================================================
