@@ -20,7 +20,11 @@ Powered By Vaupré Julien
 
 Contact:
 =======================================================================
-Vaupré Julien : 
+Vaupré Julien : Reddeveloppement@wanalike.fr
+
+Linkedin: http://linkedin.com/in/JulienV/
+
+Shambhalafm : http://shambhalafm.fr
 
 License: 
 =======================================================================
