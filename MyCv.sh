@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 
 printf -- '%s\n' "Bienvenue Sur Mon Cv Programmé en Shell bash"
@@ -8,11 +8,10 @@ sleep 1
 printf -- '%s\n' "Du Php en passant par AngularJS Jusqu'au Sql "
 sleep 1
 printf -- '%s\n' "le métier d'une vie"
-
-train= sl  
-
-if test "$train"
-then 
+#TODO DETECTION OS
+train1="/usr/games/sl" 
+train2="/usr/share/man/man6/sl.6.gz" 
+if [ -f $train1 ] || [ -f $train2 ] ; then
 
 sl
 
@@ -21,6 +20,7 @@ else
  sudo apt-get install sl && sl
 
 fi
+
 
 
 sleep 2
