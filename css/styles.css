@@ -26,8 +26,11 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: #2d7788;
-  -webkit-transition: all 0.4s ease-in-out;
+  color: white;
+  border:1px solid grey;
+  text-decoration: none;
+  background-color: #2d7788;
+    -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;

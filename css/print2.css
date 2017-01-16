@@ -146,11 +146,7 @@ div.opac{
 
 
 
-.left{
-	margin-left: 50px!important;
 
-
-}
 
 .bottom{
 
@@ -202,7 +198,7 @@ div.col-xs-2{
 
 .left{
 
-	margin-left:23%!important;
+	margin-left:25%!important;
 
 }
 
@@ -318,7 +314,7 @@ p.nintendo{
 img.profile{
         display:flex;
         align-content: flex-start;
-        height:10%;
+        height:8%;
         width: 60%;
         margin-left: 20%;
         margin-top:10%;

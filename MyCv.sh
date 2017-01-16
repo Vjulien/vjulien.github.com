@@ -1,14 +1,60 @@
 #!/bin/bash
 
 
-printf -- '%s\n' "Bienvenue Sur Mon Cv Programmé en Shell bash"
+################################### PERL MODULE NEEDED ##################################		
+# sudo apt-get install libcurses-perl													#
+# cd /tmp																				#
+# wget http://search.cpan.org/CPAN/authors/id/K/KB/KBAUCOM/Term-Animation-2.4.tar.gz	#
+# tar -zxvf Term-Animation-2.4.tar.gz													#
+# cd Term-Animation-2.4/																#
+# perl Makefile.PL && make && make test													#
+# sudo make install																		#
+#########################################################################################
+
+########################### ASCIIAQUARIUM ###################################
+# cd /tmp																	#
+# wget http://www.robobunny.com/projects/asciiquarium/asciiquarium.tar.gz	#
+# tar -zxvf asciiquarium.tar.gz												#
+# cd asciiquarium_1.0/														#
+# sudo cp asciiquarium /usr/local/bin 										#
+# sudo chmod 0755 /usr/local/bin/asciiquarium 								#
+#############################################################################
+
+
+
+
+
+
+
+banner "RedFish Cv" 
+
+echo -e '\E[33;40m'"\033[1mBienvenue Sur Mon Cv Programmé en Shell bash!\033[0m"; tput sgr0
 sleep 1
-printf -- '%s\n' "Découvrez Mes Skill's"
+echo -e '\E[31;40m'"\033[1mDécouvrez Mes Skills! \033[0m"; tput sgr0
 sleep 1
-printf -- '%s\n' "Du Php en passant par AngularJS Jusqu'au Sql "
+echo -e '\E[35;47m'"\033[1mDu Php en passant par AngularJS Jusqu'au Sql \033[0m"; tput sgr0
 sleep 1
-printf -- '%s\n' "le métier d'une vie"
+
+echo -e '\E[05;47m'"\033[1mle métier d'une vie \033[0m"; tput sgr0
+
+sleep 2
+
+#PS3='Voulez vous voir une animation ?'
+#
+#select choix in "sl" "cal"
+#
+#do
+#
+# $choix $1;
+#
+#done
+#
+# sleep 2
+#
+# clear
+
 #TODO DETECTION OS
+
 train1="/usr/games/sl" 
 train2="/usr/share/man/man6/sl.6.gz" 
 if [ -f $train1 ] || [ -f $train2 ] ; then
@@ -23,6 +69,7 @@ fi
 
 
 
+
 sleep 1
 
 printf -- '%s\n' "Plus qu'une passion un mode de vie  "
@@ -32,18 +79,17 @@ sleep 1
 
 printf -- '%s\n' "Autodidacte et passioné depuis une 10ene d'années  "
 
-sleep 1
+sleep 2
 
 
-printf -- '%s\n' "Retrouvez moi Sur github: https://github.com/Vjulien"
 
-sleep 1 
 
-printf -- '%s\n' "Fondateur et Developper a Shambhalafm.fr"
 
-sleep 1
 
-printf -- '%s\n' "Fondateur et Developper a Shambhalafm.fr" 
+
+
+#printf -- '%s\n' "Fondateur et Developper a Shambhalafm.fr"
+echo -e '\E[33;40m'"\033[1mFondateur et Developper a Shambhalafm.fr\033[0m"; tput sgr0
 
 sleep 1
 
@@ -52,14 +98,30 @@ printf -- '%s\n' "C'est à la fin de l'année 2015 que le projet a été mit en 
 sleep 1
 
 printf -- '%20s' "Toujours en Développement, le projet est conçu en php/sql, bootstrap4, css3 et html5.
-                         Je m'emploie à assurer la continuité et le maintien du développement du projet, une version Alpha est en cours." 
+                         Je m'emploie à assurer la continuité et le maintien du développement du projet, une version Alpha est en cours. " 
+sleep 3 
 
+
+
+
+
+printf -- '%s\n' "Septembre 2016 2tech, Vannes(56)"
+
+sleep 1
+
+printf -- '%s\n' "Développement collaboratif d'un panel de gestion de stock."
+
+sleep 1
+
+printf -- '%20s' "En charge de la réalisation du projet , j'ai du assurer la conception du site et gérer les différents aspects et contraintes de la commande pour répondre aux besoins du client , ce projet a été développé en php/sql et en bootstrap4/html5/Css3" 
+
+sleep 3
 
 #logo1="/usr/bin/linuxlogo" 
 #logo2="/usr/bin/X11/linuxlogo"
 #logo3="/usr/share/man/man1/linuxlogo.1.gz" 
 #if [ -f $logo1 ] || [ -f $logo2 ] || [ -f $logo3 ] ; then
-
+#
 #linuxlogo
 #
 #else
@@ -71,6 +133,23 @@ printf -- '%20s' "Toujours en Développement, le projet est conçu en php/sql, b
 #linuxlogo 2>/dev/null && linuxlogo || echo "Mais ou est mon System préféré ?" && sudo apt-get install linuxlogo
 
 
+
+printf -- '%s\n' "Août 2016"
+
+sleep 1
+
+printf -- '%s\n' "Ebulition"
+
+sleep 1
+
+printf -- '%s\n' "Développement collaboratif d'un site vitrine pour faire de la vente de prêt-à-porter"
+
+sleep 1
+
+printf -- '%s\n' "Assurer la promotion du marché de la cliente, avec plusieurs galeries affichant ses produits. Ce projet a été developpé en bootstrap/jquery Html5/Css3 PHP/sql."
+
+
+sleep 3
 
 
 exit
