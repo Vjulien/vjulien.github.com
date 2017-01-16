@@ -38,6 +38,20 @@ echo "                                                                          
 
 banner "MonCv" 
 
+x = 0
+y = arr
+$y$x=(Bienvenue Sur Mon Cv Programmé en Shell "bash")
+$y$x=("Découvrez Mes Skills Du Php en passant par AngularJS Jusquau Sql")
+$y$x=("le métier dune vie")
+array=($y$x)
+#echo ${arr[0]} ${arr[1]} ${arr[2]} ${arr[3]}
+
+for item in ${array[*]}
+do
+
+    printf "   %s\n" $item && $x++
+done
+
 
 #echo -e '\E[33;40m'"\033[1mBienvenue Sur Mon Cv Programmé en Shell bash!\033[0m"; tput sgr0
 #sleep 1
