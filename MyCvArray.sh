@@ -47,45 +47,118 @@ banner "MonCv"
 
 
 
-x=0
-y=()
-y+=('Bienvenue Sur Mon Cv Programmé en Shell bash')
-y+=("Découvrez Mes Skills Du Php en passant par AngularJS Jusquau Sql")
-y+=("Le métier dune vie")
+i=0
+
+intro[1]="Bienvenue Sur Mon Cv Programmé en Shell bash"
+intro[2]="Découvrez Mes Skills Du Php en passant par AngularJS Jusquau Sql"
+intro[3]="Le métier dune vie"
 
 #echo ${arr[0]} ${arr[1]} ${arr[2]} ${arr[3]}
 
-for item in ${y[*]}
+for item in ${intro[*]}
 do
-	sleep 0.5
-    printf "   %s" $item && $x + 1
+	sleep 0.2
+    printf "   %s" $item 
+    i=$(( $i + 1 ))
 done
 
 
-#echo -e '\E[33;40m'"\033[1mBienvenue Sur Mon Cv Programmé en Shell bash!\033[0m"; tput sgr0
-#sleep 1
-#echo -e '\E[31;40m'"\033[1mDécouvrez Mes Skills! \033[0m"; tput sgr0
-#sleep 1
-#echo -e '\E[35;47m'"\033[1mDu Php en passant par AngularJS Jusqu'au Sql \033[0m"; tput sgr0
-#sleep 1
-#
-#echo -e '\E[05;47m'"\033[1mle métier d'une vie \033[0m"; tput sgr0
-#
-#sleep 2
 
-#PS3='Voulez vous voir une animation ?'
+
+
+
+
+p=0
+
+Projets[1]="Fondateur et Developpeur"
+Projets[2]="2015 - Jusqu'à présent"
+Projets[3]="Shambhalafm.fr, Loudeac(22)"
+Projets[4]="C'est à la fin de l'année 2015 que le projet a été mit en place, avec plaisir et détermination, sur des sujets proposés par les auditeurs."
+Projets[5]="Toujours en Développement, le projet est conçu en php/sql, bootstrap4, css3 et html5.
+                         Je m'emploie à assurer la continuité et le maintien du développement du projet, une version Alpha est en cours."
+sleep 0.5
+
+
+
+for item in ${Project[*]}
+do
+	sleep 0.2
+    printf "   %s" $item 
+    p=$(( $p + 1 ))
+
+done
+
+
+
+s=0
+
+Skills[1]="PHP &amp; POO"
+Skills[2]="Javascript &amp; jQuery"
+Skills[3]="Shell &amp; Bash"
+Skills[4]="HTML5 &amp; CSS3"
+Skills[5]="Krita &amp; Gimp"
+
+
+
+for item in ${Skills[*]}
+do
+	sleep 0.2
+    printf "   %s" $item 
+    s=$(( $s + 1 ))
+
+done
+
+
+
+
+c=0
+
+
+
+Contacts[1]="Appellez moi au numero suivant : +330602074343"
+Contacts[2]="Retrouvez mon site web: Shambhalafm.fr"
+Contacts[3]="Contactez moi http://www.linkedin.com/in/julien-vaupré-186196122/"
+Contacts[4]="Consultez mes Skills :https://github.com/Vjulien"
+Contacts[5]="Ou encore envoyez moi un tweet: https://twitter.com/JVaupre"
+
+
+
+for item in ${Contacts[*]}
+do
+	sleep 0.2
+    printf "   %s" $item 
+    c=$(( $c + 1 ))
+done
+
+
+#PS3='que voulez vous voir  ?'
 #
-#select choix in "sl" "cal"
+#	
+#select options in "Skills" "Projets" "Contact" "Quit"
 #
 #do
-#
-# $choix $1;
-#
+#    case $options in
+#        "Skills")
+#            SkillsS
+#            ;;
+#        "Projets")
+#            ProjetsP
+#            ;;
+#        "Contact")
+#            ContactC
+#            ;;
+#        "Quit")
+#            break
+#            ;;
+#        *) echo invalid option;;
+#    esac
 #done
-#
-# sleep 2
-#
-# clear
+
+
+ sleep 2
+
+ clear
+
 
 #TODO DETECTION OS
 
