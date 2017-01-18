@@ -35,7 +35,7 @@
 #                                                                                                            	#
 #################################################################################################################           
 
-declare -a arr=("Bienvenue Sur mon CV, Je suis Julien.V "
+declare -a arr=("Bienvenue , Je suis Julien.V "
 				"eveille par la passion depuis le plus jeune age "	
              "je me suis interresser au fonctionnement des machines, "
             " puis trés vite aux programmes et aux codes qui les composent "
