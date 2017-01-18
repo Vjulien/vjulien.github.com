@@ -88,15 +88,15 @@ do
 
 done
 
-
+sleep 1
 
 s=0
 
-Skills[1]="PHP &amp; POO"
-Skills[2]="Javascript &amp; jQuery"
-Skills[3]="Shell &amp; Bash"
-Skills[4]="HTML5 &amp; CSS3"
-Skills[5]="Krita &amp; Gimp"
+Skills[1]="PHP & POO"
+Skills[2]="Javascript  jQuery"
+Skills[3]="Shell  Bash"
+Skills[4]="HTML5  CSS3"
+Skills[5]="Krita  Gimp"
 
 
 
@@ -108,7 +108,7 @@ do
 
 done
 
-
+sleep 1
 
 
 c=0
@@ -125,7 +125,7 @@ Contacts[5]="Ou encore envoyez moi un tweet: https://twitter.com/JVaupre"
 
 for item in ${Contacts[*]}
 do
-	sleep 0.2
+	sleep 0.5
     printf "   %s" $item 
     c=$(( $c + 1 ))
 done
