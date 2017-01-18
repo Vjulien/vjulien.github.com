@@ -25,19 +25,65 @@
 
 
 
+#################################################################################################################
+#______ _                                            _                                           _____       	#	
+#| ___ (_)                                          | |                                         /  __ \      	#
+#| |_/ /_  ___ _ ____   _____ _ __  _   _  ___    __| | __ _ __ _  ___   _ __ ___   ___  _ __   | /  \/_    __  #
+#| ___ | |/ _ | '_ \ \ / / _ | '_ \| | | |/ _ \  / _\`|/ _\ |  \ |/ __| | '_ \` _ \/ _ \| '_ \  | |    \ \ / /	#
+#| |_/ | |  __| | | \ V |  __| | | | |_| |  __/ | (_| | (_| | || |\__ \ | | | | | | (_) | | | | | \__/\ \ V / 	#
+#\____/|_|\___|_| |_|\_/ \___|_| |_|\__,_|\___|  \__,_|\__,_|_||_||___/ |_| |_| |_|\___/|_| |_|  \____/  \_/  	#
+#                                                                                                            	#
+#################################################################################################################           
 
-#echo "______ _                                            _                                           _____       ";
-#echo "| ___ (_)                                          | |                                         /  __ \      ";
-#echo "| |_/ /_  ___ _ ____   _____ _ __  _   _  ___    __| | __ _ _ __  ___   _ __ ___   ___  _ __   | /  \__   __";
-#echo "| ___ | |/ _ | '_ \ \ / / _ | '_ \| | | |/ _ \  / _\` |/ _\` | '_ \/ __| | '_ \` _ \ / _ \| '_ \  | |   \ \ / /";
-#echo "| |_/ | |  __| | | \ V |  __| | | | |_| |  __/ | (_| | (_| | | | \__ \ | | | | | | (_) | | | | | \__/\\ V / ";
-#echo "\____/|_|\___|_| |_|\_/ \___|_| |_|\__,_|\___|  \__,_|\__,_|_| |_|___/ |_| |_| |_|\___/|_| |_|  \____/ \_/  ";
-#echo "                                                                                                            ";
-#echo "                                                                                                            ";
+declare -a arr=("Bienvenue Sur mon CV, Je suis Julien.V "
+				"eveille par la passion depuis le plus jeune age "	
+             "je me suis interresser au fonctionnement des machines, "
+            " puis trés vite aux programmes et aux codes qui les composent "
+            "Je commence le developpement par l'irc avec quelques scripts "
+            "Viens ensuite le debut du developpement avec html et du css "
+            "Et aujourdhui, j'oeuvre avec enthousiasme et bonheures dans le developpement"
+            "avec un diplome de niveau III de : developpeur logiciel")
 
 
+clear
+line=0
+## boucle sur l'array 
+for j in "${arr[@]}"
+do
+	
+	tam1=$(echo $j | wc -c)
+	tam=$(echo $(($tam1 -1)))
+	for i in $(seq $tam)
+	do
+		sleep 0.01 
+		tput cup $line $i
+		echo $j | cut -c $i
+       
+	done
+  #clear.
+  line=$(( $line + 1 ))
+done
 
 #banner "MonCv" 
+
+
+i=0
+
+intro[1]="Bienvenue Sur Mon Cv Programmé en Shell bash"
+intro[2]="Découvrez Mes Skills Du Php en passant par AngularJS Jusquau Sql"
+intro[3]="Le métier dune vie"
+
+#echo ${arr[0]} ${arr[1]} ${arr[2]} ${arr[3]}
+
+for item in ${intro[*]}
+do
+	sleep 0.2
+    printf "   %s" $item 
+    i=$(( $i + 1 ))
+done
+
+sleep 1
+printf -- "%s\n" " --------------"  
 
 
 #echo -e '\E[33;40m'"\033[1mBienvenue Sur Mon Cv Programmé en Shell bash!\033[0m"; tput sgr0
