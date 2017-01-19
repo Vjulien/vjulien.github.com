@@ -5,7 +5,8 @@
 
 
 header{
-	
+	color:red;
+
 
 
 }
@@ -13,7 +14,16 @@ header{
 
 
 div.opac{
-	background:rgba(0,0,0, 0.6);
+	background:rgba(255,255,255, 0.2)!important;
+	
+	height: 107%;
+
+
+}
+
+div.opac1{
+	background:rgba(0,0,0, 0.8)!important;
+	margin: 0;
 
 }
 
@@ -52,12 +62,12 @@ div.opac{
 
 
 .side{
-	background: #42A8C0;
-	/*margin-left: 10px;*/
+	background: rgba(144,144,144, 0.6);
+	margin-left: 10px;
 	right: 7px;
 	width: 20%!important;
 	height: 100%!important;
-	min-height: 1139px;
+	min-height: 250%;
 	color: #fff;
 	float: right;
 }
@@ -115,7 +125,7 @@ div.opac{
 
 	section{
 		margin-top: 20px;
-		background-color: whitesmoke;
+		background: rgba(255,255,255, 0.2);
 		color: #234CA5;
 	}
 
@@ -152,10 +162,18 @@ div.opac{
 
 }
 
+
+
 .bottom{
 
 	margin-bottom: 5px;
-	background-color: #42A8C0 ;
+	/*background-color: #42A8C0 ;*/
+	/*background-image: url("../img/cafe.jpg");*/
+	z-index: -1;
+	background-attachment: fixed;
+	background-size: cover ;
+	background-repeat: no-repeat;
+
 
 
 }
@@ -197,6 +215,7 @@ div.col-xs-2{
 .list-group-item{
 	margin-bottom: 7px;
 	padding-left: 100px;
+	color: blue;
 
 }
 
