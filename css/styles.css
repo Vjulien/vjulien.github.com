@@ -47,6 +47,28 @@ p {
 }
 
 
+
+nav{
+  display:flex;
+  justify-content: center
+
+
+
+}
+
+.navbar-inverse{
+  
+  background-color: #42A8C0!important;
+
+}
+
+.navbar-nav{
+
+
+color: red!important;
+
+
+}
   
 
 

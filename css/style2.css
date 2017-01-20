@@ -14,7 +14,7 @@ body {
   
   
   /*background-color: rgba(0,0,0, 0.6)!important;*/ 
-  background-image: url("../img/cafe.jpg");
+  background-image: url("../img/kalinuage.gif");
   background-size: cover!important;
   background-attachment: fixed;
   /*background-repeat: repeat-x;*/
@@ -219,6 +219,28 @@ p {
 color: black!important;
 text-shadow: 3px 3px 3px yellow!important;
 
+
+
+}
+
+nav{
+  display:flex;
+  justify-content: center
+
+
+
+}
+
+.navbar-inverse{
+  
+  background-color: #42A8C0!important;
+
+}
+
+.navbar-nav{
+
+
+color: red!important;
 
 
 }

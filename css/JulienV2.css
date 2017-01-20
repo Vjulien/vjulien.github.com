@@ -47,7 +47,7 @@ div.opac1{
 	justify-content: center;
 	background-color: whitesmoke; 
 	color:red!important;
-	margin-right: 50px;
+	
 	margin-top: 10px;	
 }
 
@@ -157,7 +157,7 @@ div.opac1{
 
 
 .left{
-	margin-left: 50px!important;
+	margin-left: 60px!important;
 
 
 }
@@ -214,14 +214,14 @@ div.col-xs-2{
 
 .list-group-item{
 	margin-bottom: 7px;
-	padding-left: 100px;
+	padding-left: 110px!important;
 	color: blue;
 
 }
 
 .left{
 
-	margin-left:23%!important;
+	margin-left:28%!important;
 
 }
 
