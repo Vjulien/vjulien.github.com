@@ -62,14 +62,20 @@ div.opac1{
 
 
 .side{
-	background: rgba(144,144,144, 0.6);
+	/*background: rgba(144,144,144, 0.6);*/
+	background-image: url("../img/binary.gif")!important;
+	background-size: 10% 50%;
+
+	background-position: left;
+	background-attachment: fixed;
 	margin-left: 10px;
 	right: 7px;
 	width: 20%!important;
-	height: 100%!important;
-	min-height: 250%;
+	height: 266%!important;
+	/*min-height: 250%;*/
 	color: #fff;
 	float: right;
+	border: 1px solid red;
 }
 
 .profile{
