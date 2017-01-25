@@ -14,13 +14,13 @@ body {
   
   
   /*background-color: rgba(0,0,0, 0.6)!important;*/ 
-  /*background-image: url("../img/kalinuage.gif");*/
+  /*background-image: url("../img/kalinuage.gif");
    /*height: 200px;*/
     background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(red, yellow); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(grey, whitesmoke); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(grey, whitesmoke); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(grey, whitesmoke); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(grey, whitesmoke); /* Standard syntax (must be last) */
   background-size: cover!important;
   background-attachment: fixed;
   /*background-repeat: repeat-x;*/
