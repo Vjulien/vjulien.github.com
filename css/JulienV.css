@@ -1,6 +1,5 @@
 body{
-
-  background-image: url(../img/accessgranted.png)!important;
+  background-color: whitesmoke;		
   background-size: cover;
   background-attachment: fixed;
 
@@ -16,7 +15,8 @@ body{
 
 
 header{
-	
+	color:whitesmoke;
+	text-shadow: 2px 2px green;
 
 
 }
@@ -127,13 +127,15 @@ div.opac{
 	section{
 		margin-top: 20px;
 		background-color: rgba(255,255,255,0.5);
-		color: #234CA5;
+		color: white;
+		text-shadow: 2px 2px green ;/*rgba(35,76,165,0.9)*/
 	}
 
 
 
 	div.col-lg-9{
 		background-color: whitesmoke;
+
 
 	}
 
@@ -329,10 +331,11 @@ p.nintendo{
 img.profile{
         display:flex;
         align-content: flex-start;
-        height:10%;
+        height:13%;
         width: 60%;
-        margin-left: 20%;
+        margin-left: 22%;
         margin-top:10%;
+        border: 2px solid green;
         border-radius: 70%;
 
 
