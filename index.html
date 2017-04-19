@@ -21,19 +21,19 @@
     <link rel="shortcut icon" href="favicon.ico">  
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">    -->
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <!-- <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css"> -->
     <!-- Global CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">    -->
     <link rel="shortcut icon" href="favicon.ico">  
 
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/JulienV.css">
 
-    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>-->
+    
   
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
@@ -47,14 +47,13 @@
 		<nav class="navbar navbar-inverse navbar">
 			<center>
             <div class="container-fluid">
-				<!--<div class="navbar-header">
-					<a class="navbar-brand" href="#">WebSiteName</a>
-				</div>-->
-				<ul class="nav navbar-nav">
-					<li><a title="Consultez ici mon cv en version parallax" href="test1.html">Parallax</a></li>
-					<li><a title="Ici vous accedez a mon Cv Programmer en shell bash" href="test.html" target="_blank">Shell Bash</a></li>
-					<li><a title="Retrouvez ici la version pdf de mon cv " href="VaupréJulien.pdf" target="_blank">PDF</a></li>
-				</ul>
+                <ul class="nav navbar-nav">
+				<div class='row'>
+					<li class="parallax"><button type="button" title="Consultez ici mon cv en version parallax" href="test1.html">Parallax</button></li>
+					<li class="parallax"><button type="button" title="Ici vous accedez a mon Cv Programmer en shell bash" href="test.html" target="_blank">Shell Bash</button></li>
+					<li class="parallax"><button type="button"  title="Retrouvez ici la version pdf de mon cv " href="VaupréJulien.pdf" target="_blank">PDF</button></li>
+                </div>
+                </ul>
 				
 			</div>
             </center>
@@ -70,28 +69,29 @@
             
             <header class="col-lg-12 col-md-12 bottom">
                 <div class="col-lg-10 col-md-10">
-                    <div class="Titre ">
+
+                    <!-- <div class="Titre ">
                         <p class="red"></p>
-                    </div>
-                    
+                    </div> -->
                     <div class="list-group-items left">    
-                    <div class="col-md-2">
-                        <img src="img/Boostrap.png" class="img1" alt="" />
-                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="img/Boostrap.png" class="img1" alt="" />
+                        </div>
 
-                    <div class="col-md-2">
-                        <img src="img/kali.png" class="img2" alt="" />
-                    </div>
+                        <div class="col-md-2">
+                            <img src="img/kali.png" class="img2" alt="" />
+                        </div>
 
-                    <div class="col-md-2">
-                        <img src="img/php.png" class="img3" alt="" />
-                    </div>
+                        <div class="col-md-2">
+                            <img src="img/php.png" class="img3" alt="" />
+                        </div>
 
-                    <div class="col-md-2">
-                        <img src="img/mysql.png" class="img4" alt="" />
+                        <div class="col-md-2">
+                            <img src="img/mysql.png" class="img4" alt="" />
+                        </div>
+                    </div>  
                     </div>
-                </div>  
-
                 
                 <div class="col-md-12 skills-section section">
                 <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Languages</h2>
@@ -193,20 +193,23 @@
            <h3>Consultez mon Cv au format :</h3>
             <a href="test.html">Shell Bash</a>
             <a href="VaupréJulien.pdf">PDF</a>
-            <div class="contact-container container-block">
             
-            <h3>Qui suis-je ? </h3>
-            <p>Passioné depuis tout jeune, Au debut des années 2000,</p>
-            <p> je me suis interresser au fonctionnement
-                des machines, puis trés vite aux programmes et aux codes les composants</p>        
-            <p>Je commence le developpement par l'irc avec quelques scripts. </p>
-            <p>Viens ensuite le debut du html et du css,    
-             puis au fil du temp, je me suis pencher sur les languages machines</p>  
-             <p>A la sortie, de mon BEP electronique a default d'experiences je peine a trouver du travail,
-             je trouve donc un emploie de magasinier ou j'apprend sur le tas et passe par la suite le diplome</p>
-             <p>Apres plusieur années en tant que magasinier, je decide de me consacré a ma passion a 100% 
-             et integre la code academie pour obtenir la certification developpeur logiciel</p> 
-            </div>
+
+            <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Passioné depuis tout jeune, Au debut des années 2000,
+             je me suis interresser au fonctionnement
+                des machines, puis trés vite aux programmes et aux codes les composants        
+            Je commence le developpement par l'irc avec quelques scripts. 
+
+            Viens ensuite le debut du html et du css,    
+            puis au fil du temp, je me suis pencher sur les languages machines
+            A la sortie, de mon BEP electronique a default d'experiences je peine a trouver du travail,
+             je trouve donc un emploie de magasinier ou j'apprend sur le tas et passe par la suite le diplome
+             Apres plusieur années en tant que magasinier, je decide de me consacré a ma passion a 100% 
+             et integre la code academie pour obtenir la certification developpeur logiciel..">Qui je suis ?</button>
+
+             
+             
+            
             
         </div><!--//sidebar-wrapper-->
             </section>
@@ -298,6 +301,22 @@
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
     <!-- custom js -->
     <script type="text/javascript" src="js/main.js"></script>
+    <script>
+                $(function () {
+                $('[data-toggle="popover"]').popover()
+                    })
+
+                 $(function () {
+                 $('exemple.popover').popover({
+                        container: 'body'
+                                })
+                        })
+
+            </script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
             </body>
             
             </html>
